@@ -1,0 +1,11 @@
+#product-details img {
+    max-width: 100%;
+}
+
+#product-details h1 {
+    font-size: 2em;
+}
+
+#product-details p {
+    font-size: 1.2em;
+}
