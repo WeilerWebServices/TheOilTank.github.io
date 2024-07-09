@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>The Oil Tank - Register</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="header"></div>
-    <div id="navbar"></div>
-    <form id="register-form">
-        <input type="text" name="username" placeholder="Username" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <input type="password" name="password" placeholder="Password" required>
-        <button type="submit">Register</button>
-    </form>
-    <div id="footer"></div>
+    <header id="header"></header>
+    <nav id="navbar"></nav>
+    <main>
+        <section id="register-section">
+            <form id="register-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+    <footer id="footer"></footer>
     <script src="js/auth.js"></script>
 </body>
 </html>
